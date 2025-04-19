@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clickable-card {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  display: block;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.clickable-card:hover {
+  background: #f4f4f4;
+}
